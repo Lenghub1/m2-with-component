@@ -1,0 +1,20 @@
+/* SideBar.css */
+
+.sidebar-container {
+  width: 200px; /* Set the width of the sidebar */
+  height: 100vh; /* Make the sidebar full height */
+  background-color: rgb(184, 184, 219); /* Set background color */
+  color: #fff; /* Set text color */
+  padding-top: 16px; /* Add some top padding to the items */
+}
+
+/* Style for the list items */
+.sidebar-container .mdc-list-item {
+  cursor: pointer;
+  padding: 12px;
+}
+
+/* Style for the selected list item */
+.sidebar-container .mdc-list-item--selected {
+  background-color: #555;
+}
